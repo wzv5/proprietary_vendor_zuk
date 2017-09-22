@@ -58,4 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/zuk/z2_plus/proprietary/bin/ifaad:system/bin/ifaad \
+    vendor/zuk/z2_plus/proprietary/lib/libifaa_daemon.so:system/lib/libifaa_daemon.so \
+    vendor/zuk/z2_plus/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
+    vendor/zuk/z2_plus/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
+    vendor/zuk/z2_plus/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
+    vendor/zuk/z2_plus/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so
+
