@@ -641,7 +641,14 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/zuk/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/ifaad:$(TARGET_COPY_OUT_VENDOR)/bin/ifaad \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libifaa_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifaa_daemon.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libifaa_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifaa_jni.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libifaa_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifaa_daemon.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libifaa_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifaa_jni.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib_ifaa_tac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_ifaa_tac.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/init/ifaadaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ifaadaemon.rc
 
 PRODUCT_PACKAGES += \
     libgpustats \
